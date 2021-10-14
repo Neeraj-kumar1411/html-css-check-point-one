@@ -134,33 +134,34 @@ table {
   height: 75px;
 }
 h1 {
-  font-size: 35px;
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 35px;
 }
 .artical-1 {
   text-align: center;
 }
 .nav {
   padding-top: 20px;
+  font-size: 35px;
 }
 .home {
   color: aliceblue;
   text-decoration: none;
   margin-right: 10px;
 }
-.biog {
+.blog {
   color: green;
   text-decoration: none;
 }
 h2 {
   text-align: center;
-  font-size: 40px;
-  text-transform: capitalize;
-  /* margin: 35px 35px 35px 35px; */
-}
-h3 {
-  text-align: center;
   font-size: 30px;
   text-transform: capitalize;
+  margin-top: 15px;
+}
+h3 {
 }
 .container {
   width: 150px;
@@ -253,7 +254,7 @@ h3 {
   box-sizing: border-box;
 }
 .art-1 {
-  width: 500px;
+  width: 460px;
   height: 350px;
   font-weight: bold;
   display: inline-block;
@@ -293,12 +294,11 @@ h3 {
   border-width: 0px;
 }
 .div-2 {
-  width: 500px;
+  width: 460px;
   height: 350px;
-  display: inline-block;
+
   margin-top: 25px;
   box-sizing: border-box;
-  display: inline-block;
 }
 .img2 {
   padding-left: 25px;
@@ -338,9 +338,30 @@ h3 {
 }
 .art2-div {
   display: inline-block;
+  box-sizing: border-box;
+  font-size: 0px;
 }
 .blog4-heading {
   margin-left: -115px;
   font-size: 25px;
   font-weight: bold;
+}
+.blog-article {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 0px;
+}
+.heading4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.article-text {
+  font-size: 18px;
+}
+.blog-last-article {
+}
+.div-3 {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 0px;
 }
